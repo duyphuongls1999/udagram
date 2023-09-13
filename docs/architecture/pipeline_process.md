@@ -1,4 +1,5 @@
-## Pipeline
+## Udagram Pipeline
+![Pipeline](pipeline.png)
 
 From the root of the project:
 - `npm run frontend:install`    - To install frontend dependencies.
@@ -29,3 +30,4 @@ The order of the run jobs:
 - Deploy App:
     - Deploy Frontend the site to AWS S3.
     - Deploy api the app to AWS Elastic Beanstalk.
+
