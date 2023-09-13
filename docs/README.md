@@ -40,7 +40,7 @@ A more in depth documentation into the application.
 - RDS - Database Port: 5432
 - RDS - Database Name: postgres
 - S3 Endpoint - Frontend: http://udagram-frontend-last.s3-website-us-east-1.amazonaws.com/
-- Elastic Beanstalk URL - Backend: http://udagram-api-last.us-east-1.elasticbeanstalk.com/
+- Elastic Beanstalk URL - Backend: http://udagram-api-last.eba-ipgvrked.us-east-1.elasticbeanstalk.com/
 
 ## Environment Variables
 Setup the following variables in the .env file or in the cloud environments:

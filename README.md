@@ -1,3 +1,7 @@
+# Udagram
+
+This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+
 ## Project Overview
 This project is simple application that includes angular front-end for user and backend to provide API.
 
@@ -9,18 +13,19 @@ The main feature of this project is:
 
 ## Getting Started
 1. Clone this repo locally into the location of your choice
-2. Open the terminal and navigate to the root of the repo
-3. Follow the instructions in the Project Setup
+2. Move the content of the udagram folder at the root of the repository as this will become the main content of the project.
+3. Open the terminal and navigate to the root of the repo
+4. Follow the instructions in the Project Setup
 
 The project can run but is missing some information to connect to the database and storage service
 
 ## Project Link
 Frontend: http://udagram-frontend-last.s3-website-us-east-1.amazonaws.com/
 
-Backend: http://udagram-api-last.us-east-1.elasticbeanstalk.com/
+Backend: http://udagram-api-last.eba-ipgvrked.us-east-1.elasticbeanstalk.com
 
 ## Project Setup
-1. Clone the project - `https://github.com/duyphuongls1999/udagram.git`
+1. Download file udagram.zip and unzip file
 2. Build & Run Frontend
    1. Go into the project directory - `cd udagram/udagram-frontend`
    2. Install the dependencies - `npm install`
@@ -39,10 +44,10 @@ export POSTGRES_USERNAME=postgres     // Postgres username
 export POSTGRES_PASSWORD=postgres     // Postgres password
 export POSTGRES_HOST=''               // Postgres Host
 export POSTGRES_DB=postgres           // Database name
-export AWS_BUCKET=thanhlnt-udagram    // S3 bucket
+export AWS_BUCKET=udagram-frontend-last    // S3 bucket
 export AWS_REGION=us-east-1           // AWS region
 export AWS_PROFILE=default            // AWS profile
-export JWT_SECRET=mysecretstring      // JWT secret key
+export JWT_SECRET=mysecret      // JWT secret key
 ```
 
 ## Documentation
